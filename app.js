@@ -16,3 +16,6 @@ function User(username, email) {
   this.email = email;
   this.isAdmin = false; // 기본적으로 관리자가 아님
 }
+
+const user1 = new User("jslover", "jslover@example.com");
+const user2 = new User("webmaster", "webmaster@example.com")
