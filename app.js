@@ -19,3 +19,8 @@ function User(username, email) {
 
 const user1 = new User("jslover", "jslover@example.com");
 const user2 = new User("webmaster", "webmaster@example.com")
+
+// 객체의 속성에 접근
+console.log(user1.username); // "jslover"
+console.log(user2.email); // "webmaster@example.com"
+console.log(user1.isAdmin); // "false"
