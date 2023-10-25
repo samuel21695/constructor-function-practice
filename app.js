@@ -9,5 +9,10 @@ function Person(name, age) {
 // 'new' 키워드를 사용하면 생성자 함수를 이용, 객체를 만들 수 있다.
 const person1 = new Person("John", 30);
 const person2 = new Person("Alice, 25");
-console.log(person1);
-console.log(person2);
+
+// 생성자 함수 활용
+function User(username, email) {
+  this.username = username;
+  this.email = email;
+  this.isAdmin = false; // 기본적으로 관리자가 아님
+}
